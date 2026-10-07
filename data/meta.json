@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "id": "aasan_nahu",
+      "title": {
+        "ur": "آسان نحو",
+        "en": "Aasan Nahu"
+      },
+      "file": "aasan_nahu.json"
+    },
+    {
+      "id": "aasan_sarf",
+      "title": {
+        "ur": "آسان صرف",
+        "en": "Aasan Sarf"
+      },
+      "file": "aasan_sarf.json"
+    },
+    {
+      "id": "arabic_qaida",
+      "title": {
+        "ur": "عربی قائدہ",
+        "en": "Arabic Qaida"
+      },
+      "file": "arabic_qaida.json"
+    },
+    {
+      "id": "english_qaida",
+      "title": {
+        "ur": "انگلش قائدہ",
+        "en": "English Qaida"
+      },
+      "file": "english_qaida.json"
+    },
+    {
+      "id": "hindi_qaida",
+      "title": {
+        "ur": "ہندی قائدہ",
+        "en": "Hindi Qaida"
+      },
+      "file": "hindi_qaida.json"
+    },
+    {
+      "id": "urdu_qaida",
+      "title": {
+        "ur": "اردو قائدہ",
+        "en": "Urdu Qaida"
+      },
+      "file": "urdu_qaida.json"
+    }
+  ]
+}

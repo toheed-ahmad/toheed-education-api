@@ -1,0 +1,33 @@
+{
+  "name": "toheed-education-api",
+  "version": "1.0.0",
+  "description": "An educational REST API for Arabic, Urdu, English, Hindi Qaida, and Islamic Grammar (Nahu & Sarf).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "education",
+    "api",
+    "qaida",
+    "arabic",
+    "urdu",
+    "hindi",
+    "english",
+    "nahu",
+    "sarf"
+  ],
+  "author": "Toheed Ahmad",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
