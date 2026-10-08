@@ -6,86 +6,244 @@
     {
       "id": 1,
       "title": "Lesson 1: Alphabet - Capital Letters (حروفِ تہجی - بڑی الفابیٹ)",
-      "type": "alphabet_capital",
+      "type": "grid",
       "instruction": "Learn and recognize all uppercase English letters from A to Z.",
-      "content": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+      "letters": [
+        "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+      ]
     },
     {
       "id": 2,
       "title": "Lesson 2: Alphabet - Small Letters (حروفِ تہجی - چھوٹی الفابیٹ)",
-      "type": "alphabet_small",
+      "type": "grid",
       "instruction": "Learn and practice lowercase English letters.",
-      "content": "a b c d e f g h i j k l m n o p q r s t u v w x y z"
+      "letters": [
+        "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
+      ]
     },
     {
       "id": 3,
       "title": "Lesson 3: Vowels and Consonants (حروفِ علت اور صحیح)",
       "type": "vowels_consonants",
       "instruction": "Understand the difference between Vowels (علت) and Consonants (صحیح).",
-      "content": "Vowels (5): A, E, I, O, U\nConsonants (21): B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y, Z"
+      "vowels": ["A", "E", "I", "O", "U"],
+      "consonants": [
+        "B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"
+      ]
     },
     {
       "id": 4,
       "title": "Lesson 4: Phonics & Letter Sounds (حروف کی بنیادی آوازیں)",
-      "type": "phonics",
+      "type": "phonics_grid",
       "instruction": "Practice the phonic sounds for each letter.",
-      "content": "A (ऐ/آ) - Apple | B (ब) - Ball | C (क) - Cat | D (ड) - Dog | E (ए) - Elephant | F (फ़) - Fish | G (ग) - Goat | H (ह) - Hat | I (इ) - Ink | J (ज) - Jug | K (क) - Kite | L (ल) - Lion | M (म) - Monkey | N (न) - Nest | O (ऑ) - Orange | P (प) - Pen | Q (क्व) - Queen | R (र) - Rose | S (स) - Sun | T (ट) - Tree | U (अ) - Umbrella | V (व) - Van | W (व) - Watch | X (क्स) - X-ray | Y (य) - Yak | Z (ज़) - Zebra"
+      "items": [
+        {"letter": "A", "sound": "ऐ / آ", "example": "Apple"},
+        {"letter": "B", "sound": "ब", "example": "Ball"},
+        {"letter": "C", "sound": "क", "example": "Cat"},
+        {"letter": "D", "sound": "ड", "example": "Dog"},
+        {"letter": "E", "sound": "ए", "example": "Elephant"},
+        {"letter": "F", "sound": "फ़", "example": "Fish"},
+        {"letter": "G", "sound": "ग", "example": "Goat"},
+        {"letter": "H", "sound": "ह", "example": "Hat"},
+        {"letter": "I", "sound": "इ", "example": "Ink"},
+        {"letter": "J", "sound": "ज", "example": "Jug"},
+        {"letter": "K", "sound": "क", "example": "Kite"},
+        {"letter": "L", "sound": "ल", "example": "Lion"},
+        {"letter": "M", "sound": "म", "example": "Monkey"},
+        {"letter": "N", "sound": "न", "example": "Nest"},
+        {"letter": "O", "sound": "ऑ", "example": "Orange"},
+        {"letter": "P", "sound": "प", "example": "Pen"},
+        {"letter": "Q", "sound": "क्व", "example": "Queen"},
+        {"letter": "R", "sound": "र", "example": "Rose"},
+        {"letter": "S", "sound": "स", "example": "Sun"},
+        {"letter": "T", "sound": "ट", "example": "Tree"},
+        {"letter": "U", "sound": "अ", "example": "Umbrella"},
+        {"letter": "V", "sound": "व", "example": "Van"},
+        {"letter": "W", "sound": "व", "example": "Watch"},
+        {"letter": "X", "sound": "क्स", "example": "X-ray"},
+        {"letter": "Y", "sound": "य", "example": "Yak"},
+        {"letter": "Z", "sound": "ज़", "example": "Zebra"}
+      ]
     },
     {
       "id": 5,
       "title": "Lesson 5: Two & Three Letter CVC Words (مخلوط الفاظ)",
-      "type": "cvc_words",
+      "type": "grouped_words",
       "instruction": "Read simple consonant-vowel-consonant (CVC) words.",
-      "content": "Two-letter: An, Am, At, In, Is, It, On, Or, To, Go, No, Me, He, We\nThree-letter (a): Cat, Bat, Mat, Rat, Fan, Man, Pan, Van, Cap, Tap\nThree-letter (e): Bed, Red, Hen, Pen, Ten, Net, Pet, Wet\nThree-letter (i): Bin, Pin, Tin, Fig, Pig, Big, Sit, Pit\nThree-letter (o): Dog, Log, Box, Fox, Hot, Pot, Boy, Toy\nThree-letter (u): Bus, Cup, Sun, Run, Tub, Mug, Nut, Cut"
+      "groups": [
+        {
+          "title": "Two-letter Words",
+          "words": ["An", "Am", "At", "In", "Is", "It", "On", "Or", "To", "Go", "No", "Me", "He", "We"]
+        },
+        {
+          "title": "Three-letter Words (a)",
+          "words": ["Cat", "Bat", "Mat", "Rat", "Fan", "Man", "Pan", "Van", "Cap", "Tap"]
+        },
+        {
+          "title": "Three-letter Words (e)",
+          "words": ["Bed", "Red", "Hen", "Pen", "Ten", "Net", "Pet", "Wet"]
+        },
+        {
+          "title": "Three-letter Words (i)",
+          "words": ["Bin", "Pin", "Tin", "Fig", "Pig", "Big", "Sit", "Pit"]
+        },
+        {
+          "title": "Three-letter Words (o)",
+          "words": ["Dog", "Log", "Box", "Fox", "Hot", "Pot", "Boy", "Toy"]
+        },
+        {
+          "title": "Three-letter Words (u)",
+          "words": ["Bus", "Cup", "Sun", "Run", "Tub", "Mug", "Nut", "Cut"]
+        }
+      ]
     },
     {
       "id": 6,
       "title": "Lesson 6: Blends and Digraphs (مرکب آوازیں)",
-      "type": "blends_digraphs",
+      "type": "blends_list",
       "instruction": "Learn two-letter combined sounds like sh, ch, th, and ph.",
-      "content": "CH (च): Chair, Cheese, Child\nSH (श): Ship, Shop, Shoe\nTH (थ/द): Think, Three, This, That\nPH (फ़): Phone, Photo\nWH (व्ह): What, When, Where\nBL/CL/FL: Blue, Clock, Flag\nTR/DR/GR: Tree, Drum, Grass"
+      "groups": [
+        {
+          "blend": "CH (च)",
+          "words": ["Chair", "Cheese", "Child"]
+        },
+        {
+          "blend": "SH (श)",
+          "words": ["Ship", "Shop", "Shoe"]
+        },
+        {
+          "blend": "TH (थ / द)",
+          "words": ["Think", "Three", "This", "That"]
+        },
+        {
+          "blend": "PH (फ़)",
+          "words": ["Phone", "Photo"]
+        },
+        {
+          "blend": "WH (व्ह)",
+          "words": ["What", "When", "Where"]
+        },
+        {
+          "blend": "BL / CL / FL",
+          "words": ["Blue", "Clock", "Flag"]
+        },
+        {
+          "blend": "TR / DR / GR",
+          "words": ["Tree", "Drum", "Grass"]
+        }
+      ]
     },
     {
       "id": 7,
       "title": "Lesson 7: High-Frequency Sight Words (بنیادی مستعمل الفاظ)",
-      "type": "sight_words",
+      "type": "grid",
       "instruction": "Memorize common words used in everyday reading.",
-      "content": "The, And, You, That, Was, For, Are, With, His, They, At, Be, This, From, I, Have, Or, By, One, Had, Not, But, What, All, Were, When, We, There, Can, An"
+      "letters": [
+        "The", "And", "You", "That", "Was", "For", "Are", "With", "His", "They",
+        "At", "Be", "This", "From", "I", "Have", "Or", "By", "One", "Had",
+        "Not", "But", "What", "All", "Were", "When", "We", "There", "Can", "An"
+      ]
     },
     {
       "id": 8,
       "title": "Lesson 8: Numbers & Number Names (گنتی)",
-      "type": "numbers",
+      "type": "numbers_grid",
       "instruction": "Learn numbers and their spellings from 1 to 20.",
-      "content": "1 - One | 2 - Two | 3 - Three | 4 - Four | 5 - Five | 6 - Six | 7 - Seven | 8 - Eight | 9 - Nine | 10 - Ten | 11 - Eleven | 12 - Twelve | 13 - Thirteen | 14 - Fourteen | 15 - Fifteen | 16 - Sixteen | 17 - Seventeen | 18 - Eighteen | 19 - Nineteen | 20 - Twenty"
+      "items": [
+        {"digit": "1", "word": "One"},
+        {"digit": "2", "word": "Two"},
+        {"digit": "3", "word": "Three"},
+        {"digit": "4", "word": "Four"},
+        {"digit": "5", "word": "Five"},
+        {"digit": "6", "word": "Six"},
+        {"digit": "7", "word": "Seven"},
+        {"digit": "8", "word": "Eight"},
+        {"digit": "9", "word": "Nine"},
+        {"digit": "10", "word": "Ten"},
+        {"digit": "11", "word": "Eleven"},
+        {"digit": "12", "word": "Twelve"},
+        {"digit": "13", "word": "Thirteen"},
+        {"digit": "14", "word": "Fourteen"},
+        {"digit": "15", "word": "Fifteen"},
+        {"digit": "16", "word": "Sixteen"},
+        {"digit": "17", "word": "Seventeen"},
+        {"digit": "18", "word": "Eighteen"},
+        {"digit": "19", "word": "Nineteen"},
+        {"digit": "20", "word": "Twenty"}
+      ]
     },
     {
       "id": 9,
       "title": "Lesson 9: Basic Vocabulary - Everyday Words (روزمرہ کی ذخیرہ الفاظ)",
-      "type": "vocabulary",
+      "type": "grouped_words",
       "instruction": "Learn essential vocabulary categorized by themes.",
-      "content": "Colors: Red, Blue, Green, Yellow, Black, White, Pink\nFamily: Father, Mother, Brother, Sister, Baby, Grandfather, Grandmother\nDays: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday\nBody Parts: Head, Eyes, Ears, Nose, Mouth, Hands, Legs"
+      "groups": [
+        {
+          "title": "Colors (رنگ)",
+          "words": ["Red", "Blue", "Green", "Yellow", "Black", "White", "Pink"]
+        },
+        {
+          "title": "Family (خاندان)",
+          "words": ["Father", "Mother", "Brother", "Sister", "Baby", "Grandfather", "Grandmother"]
+        },
+        {
+          "title": "Days of the Week (دن)",
+          "words": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+        },
+        {
+          "title": "Body Parts (جسم کے اعضاء)",
+          "words": ["Head", "Eyes", "Ears", "Nose", "Mouth", "Hands", "Legs"]
+        }
+      ]
     },
     {
       "id": 10,
       "title": "Lesson 10: Grammar Basics - Articles & Pronouns (بنیادی گرامر)",
-      "type": "grammar_basics",
+      "type": "grammar_sections",
       "instruction": "Understand basic articles (A, An, The) and simple pronouns.",
-      "content": "Articles:\n- Use 'A' before consonants: A cat, A book, A pen\n- Use 'An' before vowels: An apple, An elephant, An umbrella\n- Use 'The' for specific things: The sun, The moon\n\nPronouns:\n- I, You, He (for boys), She (for girls), It (for objects/animals), We, They"
+      "sections": [
+        {
+          "category": "Articles",
+          "rules": [
+            "Use 'A' before consonants: A cat, A book, A pen",
+            "Use 'An' before vowels: An apple, An elephant, An umbrella",
+            "Use 'The' for specific things: The sun, The moon"
+          ]
+        },
+        {
+          "category": "Pronouns",
+          "rules": [
+            "I, You, He (for boys), She (for girls)",
+            "It (for objects/animals)",
+            "We, They (for groups)"
+          ]
+        }
+      ]
     },
     {
       "id": 11,
       "title": "Lesson 11: Simple Sentence Formation (آسان جملے)",
-      "type": "simple_sentences",
+      "type": "sentence_list",
       "instruction": "Practice reading simple and complete English sentences.",
-      "content": "1. This is a cat.\n2. The cat is big.\n3. I like to read.\n4. She has a red pen.\n5. The sun rises in the east.\n6. We play in the park.\n7. Always speak the truth.\n8. Respect your parents and teachers."
+      "sentences": [
+        "This is a cat.",
+        "The cat is big.",
+        "I like to read.",
+        "She has a red pen.",
+        "The sun rises in the east.",
+        "We play in the park.",
+        "Always speak the truth.",
+        "Respect your parents and teachers."
+      ]
     },
     {
       "id": 12,
       "title": "Lesson 12: Short Moral Story & Reading Comprehension (مختصر اخلاقی کہانی)",
-      "type": "reading_comprehension",
+      "type": "story",
       "instruction": "Read the story carefully and learn the moral lesson.",
-      "content": "Story: The Thirsty Crow\nOne hot summer day, a thirsty crow flew all around searching for water. After a long time, he found a pitcher with a little water at the bottom. He could not reach the water. He saw small pebbles on the ground and dropped them one by one into the pitcher. The water level came up, he drank the water happily, and flew away.\n\nMoral: Where there is a will, there is a way."
+      "story_title": "The Thirsty Crow",
+      "content": "One hot summer day, a thirsty crow flew all around searching for water. After a long time, he found a pitcher with a little water at the bottom. He could not reach the water. He saw small pebbles on the ground and dropped them one by one into the pitcher. The water level came up, he drank the water happily, and flew away.",
+      "moral": "Where there is a will, there is a way."
     }
   ]
 }
